@@ -3,7 +3,7 @@
 
 
 Hello and welcome adventurer ,
-here where you can find random challenges exported from elzero.org 
+to where you can find random challenges exported from elzero.org 
 (a site where you can practice and learn  web developement) solved.
  
 
