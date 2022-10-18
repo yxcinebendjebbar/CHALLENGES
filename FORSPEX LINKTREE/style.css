@@ -1,0 +1,109 @@
+body{
+    margin :0;
+    font-family:  'Kanit', sans-serif;
+    color: white;
+    background-color: rgb(36, 45, 53);
+}
+
+.bodyflex{
+    height: 100%;
+    width: 100%;
+    margin-top:11%;
+    color: white;
+    background-color: rgb(36, 45, 53);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.linkflex {
+    height: 600px;
+    width: 700px;
+    background-color : rgb(57, 73, 87);
+    border: 9px;
+    border-radius: 8px;
+}
+#F{
+    max-width: 120px;
+    margin: 0;
+    padding: 0;
+    transform: translate(200px,10px);
+}
+@keyframes flickerAnimation {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+@-o-keyframes flickerAnimation {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+@-moz-keyframes flickerAnimation {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+@-webkit-keyframes flickerAnimation {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+#FDOT{
+    max-width: 120px;
+    margin: 0;
+    padding: 0;
+    transform: translate(95px,40px);
+    -webkit-animation: flickerAnimation 1s infinite;
+    -moz-animation: flickerAnimation 1s infinite;
+    -o-animation: flickerAnimation 1s infinite;
+    animation: flickerAnimation 1s infinite;
+    
+}
+
+#title1{
+    font-size: 36px;
+    transform: translate(48%,-92px);
+    opacity: 90%;
+}
+#title2{
+    font-size: 26px;
+    opacity: 60%;
+    transform: translate(48%,-100px);
+}
+#line{
+    width: 600px;
+    height: 3px;
+    border: 1px;
+    border-radius: 4px;
+    background-color: lightgrey;
+    opacity: 80%;
+    transform: translate(50px,-98px);
+}
+
+#Links{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    transform: translateY(-10px);
+}
+
+button{
+    font-family:  'Kanit', sans-serif;
+    color: lightgray;
+    background-color: rgb(57, 73, 87) ;
+    min-width: 100px;
+    border: 1px;
+    border-radius: 20px;
+    font-size: 23px;
+    padding: 3%;
+    margin: 10%;
+}
+button:hover{
+    background-color: rgb(101, 102, 104);
+}
+
+footer{
+    color : lightgray;
+    padding-top: 5%;
+    padding-left: 40%;
+}
