@@ -5,6 +5,19 @@
 Hello and welcome adventurer ,
 to where you can find random challenges exported from elzero.org 
 (a site where you can practice and learn  web developement) solved.
+
+
+# LINKTREE-alike website :
+
+
+This website is personally designed and created for FORSPEX Entertainments Company.
+
+But it is customizable , which means that it can be used for YOUR personal Media management ;)
+ 
+
+## Feedback
+
+If you have any feedback, please reach out to us at yacine.bendjebbar@outlook.com
  
 
 ## You can also check out :
