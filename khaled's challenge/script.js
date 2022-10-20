@@ -42,6 +42,7 @@
         if (input.value.match(passw))
             {
                 input.style.borderColor="green";
+                document.querySelector("#answercheck3").innerHTML=" ";
             }
         else
             {
