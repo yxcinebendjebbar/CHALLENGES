@@ -10,11 +10,12 @@
         if (input.value.match(usrnm))
             {
                 input.style.borderColor="green";
+             document.querySelector("#answercheck1").innerHTML=" ";
             }
         else
             {
                 input.style.borderColor="red";
-                document.querySelector("#answercheck1").innerHTML="Please enter a username";
+                document.querySelector("#answercheck1").innerHTML="Please enter a valid username !";
 
             }
             
@@ -25,12 +26,13 @@
         if (input.value.match(em))
             {
                 input.style.borderColor="green";
+                document.querySelector("#answercheck2").innerHTML=" ";
 
             }
         else
             {
                 input.style.borderColor="red";
-                document.querySelector("#answercheck2").innerHTML="Do not forget the '@'";
+                document.querySelector("#answercheck2").innerHTML="Please enter a valid email !";
             }
             
         input = document.querySelector("#pass");
@@ -44,7 +46,7 @@
         else
             {
                 input.style.borderColor="red";
-                document.querySelector("#answercheck3").innerHTML="Password must be between 6-15 with special "+"<br>"+"characters(at least :1 cap , 1 min ,1 special char)";
+                document.querySelector("#answercheck3").innerHTML="Please enter a valid password"+"<br>"+"(at least :1 cap , 1 min ,1 special char)";
             }
     })
 
