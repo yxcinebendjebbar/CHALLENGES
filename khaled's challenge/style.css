@@ -1,0 +1,85 @@
+body{
+    background-color: rgb(14, 14, 29);
+    color: lightgray;
+    font-family: 'Ubuntu', sans-serif;
+}
+#flexcontainer{
+    min-width: 480px;
+    display: flex;
+    justify-content: center;
+    margin-top: 6%;
+    align-items: center;
+}
+.cont{
+    background-color: rgb(45, 53, 73);
+    min-width: 600px;
+    height: 530px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px;
+    border-radius: 20px;
+}
+#contfcont{
+    margin-top: 7%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    font-size: 22px;
+    text-align: center;
+}
+button{
+    color: lightgray;;
+    margin-top: 6%;
+    width: 90px;
+    height:30px;
+    font-size:11pt;
+    font-family: 'Ubuntu', sans-serif;
+    background-color:rgb(32, 32, 51) ;
+    border-radius: 12px;
+    border-color: rgb(107, 107, 107);
+    border-style: solid;
+}
+
+input {
+    resize: horizontal;
+    width: 200px;
+    height:30px;
+    font-size:14pt;
+    color: lightgray;
+    background-color:rgb(32, 32, 51) ;
+    border: 3px;
+    border-style: solid;
+    border-color: rgb(135, 135, 135);
+    border-radius: 12px;
+}
+
+input:active {
+    width: auto;   
+}
+
+input:focus {
+    min-width: 200px;
+}
+#answercheck1{
+    min-width: 200px;
+    font-size: 12px;
+    text-align: center;
+}
+#answercheck2{
+    min-width: 200px;
+    font-size: 12px;
+    text-align: center;
+}
+#answercheck3{
+    min-width: 200px;
+    font-size: 10px;
+    text-align: center;
+}
+header{
+    text-align: center;
+    opacity: 80%;
+    transform: translateY(38px);
+}
