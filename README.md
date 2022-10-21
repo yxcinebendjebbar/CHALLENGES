@@ -13,6 +13,11 @@ to where you can find random challenges exported from elzero.org
 This website is personally designed and created for FORSPEX Entertainments Company.
 
 But it is customizable , which means that it can be used for YOUR personal Media management ;)
+
+
+# Khaled's Challenge :
+
+Simply a "Sign up" page minimalistically designed :)
  
 
 ## Feedback
