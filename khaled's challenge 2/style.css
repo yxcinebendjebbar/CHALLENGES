@@ -1,0 +1,52 @@
+body {
+    background-color: #184a62;
+    text-align: center;
+    
+}
+
+#flexcont{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.cont{
+    margin-top: 11%;
+  display:inline-block;
+  background-color: lightgray;
+  border-radius: 25px;
+  border: 2px solid  #184a62;
+  text-align: center;
+  width: 460px;
+
+
+}
+input[type="text"] {
+    line-height: 1.8;
+    width: 38%;
+    border: 2px solid whitesmoke;
+    border-radius: 4px;
+}
+
+input[type="text"]:hover {
+    background-color: lightgray;
+    transition: color 2s ease-in-out, background-color 0.15s ease-in-out;
+}
+
+
+input:focus {
+  border: 2px solid black;
+}
+
+button{
+    background-color: #d9edff;
+    height: 33px;
+    border-radius: 0.25rem;
+    font-size: 0.95rem;
+    font-weight: 400;
+    line-height: 1.5;
+    padding: 0.375rem 0.75rem;
+    text-align: center;
+    vertical-align: middle;
+}
+
