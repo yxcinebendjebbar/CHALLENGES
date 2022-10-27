@@ -19,6 +19,10 @@ But it is customizable , which means that it can be used for YOUR personal Media
 
 Simply a "Sign up" page minimalistically designed :)
  
+ 
+ # Khaled's Challenge 2:
+ 
+ DZD to EURO converter (works vice versa) .
 
 ## Feedback
 
