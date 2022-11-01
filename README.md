@@ -23,6 +23,10 @@ Simply a "Sign up" page minimalistically designed :)
  # Khaled's Challenge 2:
  
  DZD to EURO converter (works vice versa) .
+ 
+ # Khaled's Challenge 3:
+ 
+ Text changes repeatedly after 5 seconds using javascript .
 
 ## Feedback
 
