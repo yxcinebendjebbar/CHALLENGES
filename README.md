@@ -17,7 +17,7 @@ But it is customizable , which means that it can be used for YOUR personal Media
 
 # Khaled's Challenge :
 
-Simply a "Sign up" page minimalistically designed :)
+Simply a "Sign up" page minimalisticly designed :)
  
  
  # Khaled's Challenge 2:
