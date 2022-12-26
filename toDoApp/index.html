@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>todoApp</title>
+</head>
+<body>
+    <ul id="toDos"></ul>
+
+    <form>
+        <input name="todo" type="text">
+        <input type="submit" value="Add Todo">
+    </form>
+
+    <!--
+        ! javaScript
+    -->
+    <script>
+
+        const form = document.querySelector('form');
+        const input = document.querySelector("[name='todo']");
+        const todoList = document.getElementById('toDos');
+
+        // side effects / lifecycles
+
+        const existingTodos = JSON.parse(localStorage.getItem('todos'));
+
+        const todoData = existingTodos || [] ;
+
+        todoData.forEach(todo => {
+            addTodo(todo);
+        });
+        
+
+
+        function addTodo (todoText){
+            todoData.push(todoText);
+            const li = document.createElement('li');
+            li.innerHTML= todoText;
+            todoList.appendChild(li);
+            localStorage.setItem('toDos',JSON.stringify(todoData));
+        }
+
+        // events
+        form.onsubmit = (event) => {
+            event.preventDefault();
+            addTodo(input.value);
+        }
+
+    </script>
+</body>
+</html>
